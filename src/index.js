@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import Facebook from './components/Facebook';
+// import Facebook from './components/Facebook';
 import reportWebVitals from './reportWebVitals';
+
+// import Transactions from './transactions/Transactions'
+ import Savings from './savings/Savings'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Facebook />
+    <Savings />
   </React.StrictMode>,
   document.getElementById('root')
 );
